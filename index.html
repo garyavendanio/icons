@@ -10,16 +10,17 @@
 </head>
 
 <body>
-    <div class="toggle-custom app-position-right">
-        <span app-toggle="target: .toggle-custom; cls: app-background-secondary;" app-icon="toggle-right"></span>
+    <div class="app-position-right">
+        <div class="toggle-custom">
+            <span app-toggle="target: .toggle-custom; cls: app-background-secondary;" app-icon="toggle-right"></span>
+        </div>
+        <div class="toggle-custom" hidden>
+            <span app-toggle="target: .toggle-custom; cls: app-hidden;" app-icon="toggle-left"></span>
+        </div>
     </div>
-    <div class="toggle-custom app-position-right" hidden>
-        <span app-toggle="target: .toggle-custom;" app-icon="toggle-left"></span>
-    </div>
 
 
-
-    <div style="z-index:-1;" class="toggle-custom app-position-cover">
+    <div style="z-index:-1;" class="toggle-custom app-position-cover app-padding-large app-padding-remove-horizontal">
         <p>djbdsjhfghjdsgfhdsgf</p>
         <p>ksdjkshfjh</p>
     </div>
