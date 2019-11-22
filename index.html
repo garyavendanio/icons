@@ -10,19 +10,20 @@
 </head>
 
 <body>
-    <div class="app-position-right">
-        <div class="toggle-custom">
-            <span app-toggle="target: .toggle-custom; cls: app-background-secondary;" app-icon="toggle-right"></span>
-        </div>
-        <div class="toggle-custom" hidden>
-            <span app-toggle="target: .toggle-custom; cls: app-hidden;" app-icon="toggle-left"></span>
-        </div>
-    </div>
+                  <div app-toggle="target:#dos;cls: app-background-secondary">
+                      <span app-icon="toggle-right" app-toggle="target: .toggle3"></span>
+                  </div>
+
+                  <div app-toggle="target:#dos;cls: app-background-default" hidden>
+                      <span app-icon="toggle-left" app-toggle="target: .toggle3;"></span>
+                  </div>
 
 
-    <div style="z-index:-1;" class="toggle-custom app-position-cover app-padding-large app-padding-remove-horizontal">
-        <p>djbdsjhfghjdsgfhdsgf</p>
-        <p>ksdjkshfjh</p>
+    <div style="z-index:-1;" id="dos" class="app-position-cover app-padding-large app-padding-remove-horizontal">
+        <div class="app-container">
+          <p>djbdsjhfghjdsgfhdsgf</p>
+          <p>ksdjkshfjh</p>
+        </div>
     </div>
 
     <script src="https://garyavendanio.github.io/mywork/app.js"></script>
