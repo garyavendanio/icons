@@ -1,2 +1,2 @@
-# icons
-[viewicon list](https://garyavendanio.github.io/icons)
+## icons
+[here you can see a complete list of icons](https://garyavendanio.github.io/icons)
